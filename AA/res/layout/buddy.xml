@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/bexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/b_exit" />
+
+    <Button
+        android:id="@+id/bmakefriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bexit"
+        android:text="@string/b_makefriend" />
+
+    <TextView
+        android:id="@+id/tage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quickContactBadge1"
+        android:text="@string/p_age" />
+
+    <TextView
+        android:id="@+id/tlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tage"
+        android:layout_marginTop="37dp"
+        android:text="@string/p_level" />
+
+    <TextView
+        android:id="@+id/ttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tlevel"
+        android:layout_marginTop="42dp"
+        android:text="@string/p_time" />
+
+    <TextView
+        android:id="@+id/tname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/ttime"
+        android:text="@string/p_name" />
+
+    <TextView
+        android:id="@+id/tarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ttime"
+        android:layout_marginTop="43dp"
+        android:text="@string/p_area" />
+
+    <Button
+        android:id="@+id/bchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bexit"
+        android:layout_alignParentRight="true"
+        android:text="@string/b_chat" />
+
+    <TextView
+        android:id="@+id/tstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tarea"
+        android:layout_marginTop="34dp"
+        android:text="@string/p_status" />
+
+</RelativeLayout>

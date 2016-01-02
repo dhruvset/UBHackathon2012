@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AAActivity!</string>
+    <string name="app_name">AAA</string>
+    
+    <string name="p_name">USERNAME</string>
+    <string name="p_time">AVAILABLE TIME</string>
+    <string name="p_age">AGE</string>
+    <string name="p_area">CITY</string>
+    <string name="p_level">ADDICTION LEVEL</string>
+    <string name="p_score">SCORE</string>
+    <string name="p_status">RELATIONSHIP STATUS</string>
+    
+    <string name="h_username">USERNAME</string>
+    <string name="h_password">PASSWORD</string>    
+    <string name="h_time">AVAILABLE TIME</string>
+    <string name="h_age">YOUR AGE</string>
+    <string name="h_area">CITY</string>
+    <string name="h_level">LEVEL(1-5)</string>
+    
+    <string name="b_submit">SUBMIT</string>
+    <string name="b_newuser">NEW USER</string>
+    <string name="b_chat">Chat with Buddy</string>
+    <string name="b_search">Search New Buddy</string>
+    <string name="b_exit">Exit App</string>
+    <string name="b_unfriend">Unfriend buddy</string>
+    <string name="b_ratep1">Rate buddy +1</string>
+    <string name="b_ratem1">Rate buddy -1</string>
+    <string name="b_send">Send</string>
+    <string name="b_makefriend">Add as Buddy</string>
+    <string name="b_editprofile">Edit Profile</string>
+    
+    
+    
+</resources>

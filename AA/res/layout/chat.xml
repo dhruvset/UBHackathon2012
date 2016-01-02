@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/bsend"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/b_send" />
+
+    <TextView
+        android:id="@+id/tTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:maxLines="5000"
+        android:scrollbars="vertical"
+        android:text="@string/hello" >
+    </TextView>
+
+    <Button
+        android:id="@+id/bexit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/b_exit" />
+
+    <EditText
+        android:id="@+id/tEditField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bsend"
+        android:layout_alignParentLeft="true"
+        android:imeOptions="actionSend|flagNoEnterAction"
+        android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+        android:maxLines="4" />
+
+</RelativeLayout>

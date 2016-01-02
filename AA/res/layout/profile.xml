@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/bexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/b_exit" />
+
+    <Button
+        android:id="@+id/bsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bexit"
+        android:layout_alignParentLeft="true"
+        android:text="@string/b_search" />
+
+    <Button
+        android:id="@+id/bunfriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bexit"
+        android:layout_alignParentRight="true"
+        android:text="@string/b_unfriend" />
+
+    <Button
+        android:id="@+id/bchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bsearch"
+        android:layout_alignParentLeft="true"
+        android:text="@string/b_chat" />
+
+    <TextView
+        android:id="@+id/ttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/p_time" />
+
+    <TextView
+        android:id="@+id/tlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ttime"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/p_level" />
+
+    <TextView
+        android:id="@+id/tarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tlevel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="24dp"
+        android:text="@string/p_area" />
+
+    <TextView
+        android:id="@+id/tname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/quickContactBadge1"
+        android:layout_marginBottom="22dp"
+        android:layout_toLeftOf="@+id/bunfriend"
+        android:text="@string/p_name" />
+
+    <Button
+        android:id="@+id/beditprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/b_editprofile" />
+
+    <TextView
+        android:id="@+id/tage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tarea"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/p_age" />
+
+    <TextView
+        android:id="@+id/tstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tname"
+        android:text="@string/p_status" />
+
+    <TextView
+        android:id="@+id/tscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ttime"
+        android:layout_marginTop="29dp"
+        android:inputType="number"
+        android:text="@string/p_score" />
+
+    <Button
+        android:id="@+id/bratep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tscore"
+        android:text="@string/b_ratep1" />
+
+    <Button
+        android:id="@+id/bratem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bunfriend"
+        android:layout_alignParentRight="true"
+        android:text="@string/b_ratem1" />
+
+</RelativeLayout>
